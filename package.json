@@ -9,7 +9,8 @@
     "dev": "next dev",
     "test": "jest",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "setup:production": "node scripts/setup_for_prod.js"
   },
   "dependencies": {
     "express": "^4.17.1",

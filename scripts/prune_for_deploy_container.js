@@ -5,6 +5,10 @@ const commands = [
     name: "remove test files",
     value: 'find . -name "*.spec.ts" -type f -delete',
   },
+  {
+    name: "remove node_modules",
+    value: "rm -rf node_modules/",
+  },
 ];
 
 commands.forEach((command) => {

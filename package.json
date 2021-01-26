@@ -2,7 +2,6 @@
   "name": "skaffold-101",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "author": "Ivan Siderov",
   "license": "ISC",
   "scripts": {
@@ -10,7 +9,7 @@
     "test": "jest",
     "build": "next build",
     "start": "next start",
-    "setup:production": "node scripts/setup_for_prod.js"
+    "docker-setup": "node scripts/docker_setup.js"
   },
   "dependencies": {
     "express": "^4.17.1",
